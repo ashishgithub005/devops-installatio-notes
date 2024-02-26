@@ -1,18 +1,18 @@
-<b>Connect to instance and execute following commands.<b/>
-<br/>
-# Become a root <br/>
-sudo su - <br/>
+Connect to instance and execute following commands
 
-# Jenkins repo is added to yum.repos.d <br/>
-sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo <br/>
+# Become a root 
+sudo su - 
 
-# Import key from Jenkins <br/>
-sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key  <br/>
+# Jenkins repo is added to yum.repos.d 
+sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo 
 
-# Install Java-11  <br/>
-amazon-linux-extras install java-openjdk11 -y  <br/>
+# Import key from Jenkins
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key 
+
+# Install Java-11 
+amazon-linux-extras install java-openjdk11 -y  
 or  <br/>
-sudo yum install java-17-amazon-corretto-devel <br/>
+sudo yum install java-17-amazon-corretto-devel 
 
-# Install Jenkins  <br/>
-yum install jenkins -y  <br/>
+# Install Jenkins  
+yum install jenkins -y  
