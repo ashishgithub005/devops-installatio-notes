@@ -15,5 +15,21 @@ or  <br/>
 sudo yum install java-17-amazon-corretto-devel 
 
 # Install Jenkins  
-yum install jenkins -y  
+yum install jenkins -y
+
+Start Jenkins.
+# Become a root, no need to execute if you are alread root.
+sudo su -
+
+# You can enable the Jenkins service to start at boot with the command:
+systemctl enable jenkins
+
+# You can start the Jenkins service with the command:
+systemctl start jenkins
+
+# You can check the status of the Jenkins service using the command:
+systemctl status jenkins
+
+**Open Web-Browser and access jenkins on port 8080.**
+http://<Public-IPv4-address>:8080/
 
