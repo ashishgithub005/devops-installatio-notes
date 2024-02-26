@@ -14,6 +14,9 @@ amazon-linux-extras install java-openjdk11 -y
 or  <br/>
 sudo yum install java-17-amazon-corretto-devel 
 
+change java version(if required) :
+sudo alternatives --config java
+
 # Install Jenkins  
 yum install jenkins -y  
 
