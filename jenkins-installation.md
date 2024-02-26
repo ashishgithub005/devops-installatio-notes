@@ -1,6 +1,6 @@
-Connect to instance and execute following commands
 
-# Become a root 
+
+# Switch to root 
 sudo su - 
 
 # Jenkins repo is added to yum.repos.d 
