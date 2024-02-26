@@ -1,1 +1,25 @@
+sudo yum update -y
+
+To install Docker on Amazon Linux, you can use the following command:
+sudo yum install docker -y
+
+To start the Docker service automatically when the instance starts, you can use the following command:
+sudo systemctl enable docker
+
+After installing Docker, you will need to start the Docker service:
+sudo systemctl start docker
+
+Docker version :
+docker --version
+
+Add your user to the Docker group to run Docker commands without 'sudo'
+sudo usermod -a -G docker $(whoami)
+
+After executing this command, the user will be added to the docker group and will have the necessary permissions to run Docker commands without sudo.
+
+Note that the change to the user’s group membership will not take effect until the next time the user logs in. You can log out and log back in to apply the changes or use the following command to activate the changes without logging out:
+newgrp docker
+
+
+
 
