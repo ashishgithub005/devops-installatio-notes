@@ -4,7 +4,7 @@
 sudo su - 
 
 # Jenkins repo is added to yum.repos.d 
-sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo 
+<p>sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo <p/>
 
 # Import key from Jenkins
 sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key 
