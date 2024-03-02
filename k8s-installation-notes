@@ -12,11 +12,11 @@
 		1 Master Node : t2.medium
 
 		2 Worker Nodes : t2.micro
+Note : Use UBUNTU 20.04 version AMI for all 3 machines.
 
-********************************  Note: Use UBUNTU 20.04 version AMI for all 3 machines *************************************
-
-
-===================== Master & Worker Nodes Common Commands Execution start =========================
+**************************************************************************************************
+               run onn below command on both Master and Worker Nodes
+**************************************************************************************************
 
 
 # Upgrade apt packages
